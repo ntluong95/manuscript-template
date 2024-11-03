@@ -4,7 +4,7 @@
 format: jb-book
 root: article
 chapters:
-  - file: docs/notebooks/seismic-monitoring-stations.out.ipynb
-  - file: docs/notebooks/data-screening.out.ipynb
-  - file: docs/notebooks/visualization-figure-creation-seaborn.out.ipynb
-  - file: docs/notebooks/mixed.out.ipynb
+  - file: notebooks/seismic-monitoring.md
+  - file: notebooks/data-screening.ipynb
+  - file: notebooks/visualization-figure-creation-seaborn.ipynb
+  - file: notebooks/r-code.embed.ipynb
