@@ -1,6 +1,6 @@
 project:
   type: manuscript
-  output-dir: docs
+  output-dir: _build
   render: 
     - article.qmd
     - notebooks/*.qmd
@@ -33,10 +33,10 @@ format:
     title-block-style: manuscript
     # include-in-header:
     #   - file: myst.html
-  agu-pdf: 
-    notebook-links: inline
-  docx: default
-  jats: default
+  # agu-pdf: 
+  #   notebook-links: inline
+  # docx: default
+  # jats: default
 
 citation:
   container-title: Earth and Space Science

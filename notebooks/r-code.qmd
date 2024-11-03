@@ -2,8 +2,28 @@
 title: La Palma Earthquakes
 description: La Palma Earthquakes
 short_title: ''
+execute:
+  warning: false
+  message: false
 date: '2022-08-05T10:23:39.933Z'
 ---
+
+```{r}
+pacman::p_load(
+  rio,          # File import
+  here,         # File locator
+  arrow,
+  reticulate,
+  tidyverse     # data management + ggplot2 graphics
+)
+
+use_virtualenv(here::here(".venv"))
+# arrow::install_pyarrow() # need to install pip
+# Sys.setenv(RETICULATE_PYTHON = here::here(".venv"))
+
+repl_python()
+
+```
 
 # Dataset
 
@@ -19,6 +39,7 @@ The earthquake dataset used in our analysis was generated from the [IGN web port
 #| message: false
 library(tidyverse)
 library(ggExtra)
+library(extrafont)
 ```
 
 ## Visualising Long term earthquake data

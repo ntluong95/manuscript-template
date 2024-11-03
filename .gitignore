@@ -30,3 +30,4 @@ files/
 *_pdf_logs/
 *_pdf_tex/
 env/
+renv/

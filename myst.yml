@@ -71,14 +71,14 @@ project:
         - notebooks/seismic-monitoring.md
         - notebooks/data-screening.ipynb
         - notebooks/visualization-figure-creation-seaborn.ipynb
-    - format: pdf
-      article: article.md
-      output: article.pdf
-      template: agu2019
-    - format: tex
-      article: article.md
-      output: tex.zip
-      template: agu2019
+    # - format: pdf
+    #   article: article.md
+    #   output: article.pdf
+    #   template: agu2019
+    # - format: tex
+    #   article: article.md
+    #   output: tex.zip
+    #   template: agu2019
   jupyter: true
 site:
   title: La Palma Seismicity 2021
